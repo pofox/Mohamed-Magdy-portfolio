@@ -1,23 +1,25 @@
-/* Base styles for your portfolio */
+/* Modern styles for your portfolio */
 
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'Roboto', sans-serif;
   line-height: 1.6;
   margin: 0;
   padding: 0;
-  background: #f4f4f4;
-  color: #333;
+  background: linear-gradient(to bottom, #1e1e2f, #3a3a5f);
+  color: #eaeaea;
 }
 
 header {
-  background: #222;
-  color: #fff;
-  padding: 1rem;
+  background: #1e1e2f;
+  color: #eaeaea;
+  padding: 2rem;
   text-align: center;
+  border-bottom: 2px solid #3a3a5f;
 }
 
 header h1 {
   margin: 0;
+  font-size: 2.5rem;
 }
 
 nav ul {
@@ -25,31 +27,45 @@ nav ul {
   padding: 0;
   display: flex;
   justify-content: center;
-  gap: 1rem;
+  gap: 2rem;
 }
 
 nav a {
-  color: #fff;
+  color: #eaeaea;
   text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #ff6f61;
 }
 
 section {
-  padding: 2rem;
-  max-width: 800px;
+  padding: 3rem;
+  max-width: 900px;
   margin: auto;
+  background: #2e2e4f;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
 }
 
 .project {
-  background: #fff;
-  padding: 1rem;
-  margin-bottom: 1.5rem;
-  border-radius: 8px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  background: #3a3a5f;
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+
+.project h3 {
+  color: #ff6f61;
 }
 
 footer {
   text-align: center;
-  padding: 1rem;
-  background: #222;
-  color: #fff;
+  padding: 1.5rem;
+  background: #1e1e2f;
+  color: #eaeaea;
+  border-top: 2px solid #3a3a5f;
 }
