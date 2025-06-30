@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="123.13648mm"
+   height="123.13642mm"
+   viewBox="0 0 123.13648 123.13642"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4 (86a8ad7, 2024-10-11)"
+   sodipodi:docname="drawing.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#505050"
+     inkscape:document-units="mm"
+     inkscape:zoom="0.74208053"
+     inkscape:cx="256.0369"
+     inkscape:cy="291.74731"
+     inkscape:window-width="1245"
+     inkscape:window-height="1033"
+     inkscape:window-x="562"
+     inkscape:window-y="63"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1">
+    <rect
+       x="214.26247"
+       y="485.12256"
+       width="320.71991"
+       height="59.292755"
+       id="rect2" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-28.431707,-58.432229)">
+    <path
+       id="rect1"
+       style="fill:none;stroke:#29a598;stroke-width:10;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       d="M 33.431707,120.0001 90.00025,63.431561 V 120.0001 h 56.56854 l -56.56854,56.56855"
+       sodipodi:nodetypes="ccccc" />
+    <path
+       id="path1"
+       style="fill:none;stroke:#000000;stroke-width:10;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       d="M 89.999638,176.5686 33.431102,120.00006 h 56.568536 l 2e-6,-56.568538 56.56855,56.568538"
+       sodipodi:nodetypes="ccccc" />
+    <path
+       id="path2"
+       style="fill:none;stroke:#29a598;stroke-width:10;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       d="M 33.431707,120.0001 60,93.432 M 116.569,150 90.00025,176.56865"
+       sodipodi:nodetypes="cccc" />
+    <text
+       xml:space="preserve"
+       transform="matrix(0.26458333,0,0,0.26458333,-2.3594936,-13.930898)"
+       id="text2"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:37.3333px;line-height:1.25;font-family:'Kunstler Script';-inkscape-font-specification:'Kunstler Script';letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect2)"><tspan
+         x="214.26172"
+         y="515.52546"
+         id="tspan4"><tspan
+   style="fill:#29a598"
+   id="tspan1">Mohamed </tspan>        Magdy</tspan></text>
+  </g>
+</svg>
