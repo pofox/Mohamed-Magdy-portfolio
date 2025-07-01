@@ -1,45 +1,113 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Personal Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mohamed Magdy | Game Dev Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:700,400&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header class="header-background">
-        <nav>
-            <ul>
-                <li><a href="#about">About</a></li>
-                <li><a href="#portfolio">Portfolio</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-        <div class="header-content">
-            <img src="drawing.svg" alt="Profile Photo of pofo">
-            <h1>Hi, my name is Mohamed Magdy</h1>
-            <p>Game Developer | 3D Artist | Tech Enthusiast</p>
+  <nav class="navbar">
+    <div class="container nav-container">
+      <span class="logo">Mohamed Magdy</span>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+  <header class="hero">
+    <div class="container hero-content">
+      <img src="test2.PNG" alt="Profile" class="profile-img">
+      <div>
+        <h1>Game Developer & 3D Artist</h1>
+        <p>Shaders • Procedural Systems • Sandbox Mechanics</p>
+        <div class="hero-links">
+          <a href="https://pofo-x.itch.io/" target="_blank" class="btn">Itch.io</a>
+          <a href="https://www.linkedin.com/in/mohamed-magdy--/" target="_blank" class="btn">LinkedIn</a>
         </div>
-    </header>
-    <main>
-        <section id="about">
-            <h2>~ About Me ~</h2>
-            <p>Hello there! I’m a game developer with a passion for shaders and math. I love creating cool visual effects and solving problems to make games run better. I focus on combining creativity with technical skills to bring fresh ideas to life and improve the gaming experience. I'm always eager to learn and challenge myself to make games more fun and engaging.</p>
-            </section>
-        <section id="portfolio">
-            <h2>~ My Work ~</h2>
-            <div class="project" id="project1"><img src="Screenshot 2025-01-18 011401.png" alt="Project 1" style="width: 100%; height: 100%;"></div>
-            <div class="project" id="project2"><img src="Screenshot 2025-01-18 012049.png" alt="Project 2" style="width: 100%; height: 100%;"></div>
-            <div class="project" id="project3"><img src="Screenshot 2025-01-18 012219.png" alt="Project 3" style="width: 100%; height: 100%;"></div>
-            <div class="project" id="project4"><img src="Screenshot 2025-01-18 012454.png" alt="Project 4" style="width: 100%; height: 100%;"></div>
-            <div class="project" id="project5"><img src="Screenshot 2025-01-18 012344.png" alt="Project 5" style="width: 100%; height: 100%;"></div>
-            <div class="project" id="project6"><img src="Screenshot 2025-01-18 012547.png" alt="Project 6" style="width: 100%; height: 100%;"></div>
-            <div class="project" id="project7"><img src="Screenshot 2025-01-18 001955.png" alt="Project 7" style="width: 100%; height: 100%;"></div>
-        </section>
-        <section id="contact">
-            <h2>~ Keep in Touch ~</h2>
-            <button class="btn btn-default td-btn outline white" onclick="window.location.href='https://www.linkedin.com/in/mohamed-magdy--/';">Send me a message!</button>              
-        </section>
-    </main>
+      </div>
+    </div>
+  </header>
+  <main>
+    <section id="about" class="section">
+      <div class="container">
+        <h2>About Me</h2>
+        <p>
+          Hi! I’m Mohamed, a passionate game developer who loves combining math, code, and art to create unique interactive experiences. My focus is on shaders, procedural content, and sandbox systems. I enjoy solving technical challenges and pushing the boundaries of what’s possible in games.
+        </p>
+      </div>
+    </section>
+    <section id="projects" class="section alt-bg">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="projects-grid">
+
+            <div class="project-card">
+                <img src="screenshot-zero-phase.png" alt="Zero Phase">
+                <h3>Zero Phase</h3>
+                <p>
+                A short sci-fi FPS set in a dying orbital station on the edge of a black hole. Search for weapons, fight unknown threats, and survive collapsing time loops. Stylized visuals, fast-paced combat, and ambient storytelling.
+                </p>
+                <a href="https://pofo-x.itch.io/zero-phase" target="_blank" class="project-link">Play on Itch.io</a>
+            </div>
+
+            <div class="project-card">
+                <img src="screenshot-cycloval.png" alt="Cycloval of Death">
+                <h3>Cycloval of Death</h3>
+                <p>
+                Survive the cursed Marigold Carnival where freaks seek revenge. Face off against Celestine, the Blade Siren, in a deadly spinning arena haunted by cruelty and vengeance. One boss. One arena. One chance to escape alive.
+                </p>
+                <a href="https://pofo-x.itch.io/cycloval-of-death" target="_blank" class="project-link">Play on Itch.io</a>
+            </div>
+
+            <div class="project-card">
+                <img src="screenshot-vacsicure.png" alt="Vacsicure">
+                <h3>VacsiCure V2.0</h3>
+                <p>
+                Explore a locked-down facility swarming with zombies. Solve puzzles, avoid detection, and uncover the truth behind the outbreak. Your goal: find the vaccine that can reverse the infection—before it’s too late.
+                </p>
+                <a href="https://pofo-x.itch.io/vacsicurev20" target="_blank" class="project-link">Play on Itch.io</a>
+            </div>
+
+            <div class="project-card">
+                <img src="screenshot-raymarching.png" alt="Raymarching Shader">
+                <h3>Raymarching Shader</h3>
+                <p>
+                A real-time fractal shader built entirely in Unity Shader Graph—no custom nodes. Created as a portfolio piece to showcase procedural visuals and technical art skills inside Unity’s built-in toolset.
+                </p>
+                <a href="https://www.linkedin.com/posts/mohamed-magdy--_gamedev-shadergraph-raymarching-activity-7316940697926885376-yeoF" target="_blank" class="project-link">View on LinkedIn</a>
+            </div>
+
+            <div class="project-card">
+                <img src="screenshot-breakout.png" alt="Geometry Nodes Breakout">
+                <h3>Breakout in Geometry Nodes</h3>
+                <p>
+                A playable breakout clone made entirely with Blender Geometry Nodes. No keyframes, no code—just pure procedural logic inside a single .blend file. Designed to explore interactive motion design through node-based systems.
+                </p>
+                <a href="https://www.linkedin.com/posts/mohamed-magdy--_blender3d-geometrynodes-procedural-activity-7326833385354477569-sNog" target="_blank" class="project-link">Watch on LinkedIn</a>
+            </div>
+
+            </div>
+            <div class="more-projects">
+            <a href="https://pofo-x.itch.io/" target="_blank">See all projects on Itch.io →</a>
+            </div>
+        </div>
+    </section>
+    <section id="contact" class="section">
+      <div class="container">
+        <h2>Contact</h2>
+        <p>Want to collaborate or just say hi?</p>
+        <a href="https://www.linkedin.com/in/mohamed-magdy--/" target="_blank" class="btn">Message me on LinkedIn</a>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <div class="container">
+      <small>© 2025 Mohamed Magdy. All rights reserved.</small>
+    </div>
+  </footer>
 </body>
 </html>

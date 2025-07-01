@@ -1,23 +1,21 @@
-# Game Dev Portfolio
+# Mohamed Magdy | Game Dev Portfolio
 
-This is a portfolio website showcasing the work of a game developer specializing in shaders, procedural systems, and sandbox game mechanics.
+A modern portfolio website to showcase my work as a game developer and 3D artist.
 
 ## Features
 
-- **About Section**: Learn more about the developer's background and interests.
-- **Projects Section**: Explore completed and ongoing projects with descriptions, videos, and screenshots.
-- **Contact Section**: Find links to email, GitHub, and Itch.io profiles.
+- About section
+- Projects with images and links to Itch.io
+- Contact via LinkedIn
 
-## Technologies Used
+## Projects
 
-- **HTML**: Structure of the website.
-- **CSS**: Styling for a modern and visually appealing design.
+See all my projects at [pofo-x.itch.io](https://pofo-x.itch.io/).
 
-## How to Use
+## Contact
 
-1. Clone the repository.
-2. Open `index.html` in your browser to view the portfolio.
+[LinkedIn](https://www.linkedin.com/in/mohamed-magdy--/)
 
-## License
+---
 
-This project is licensed under the MIT License.
+Built with HTML & CSS.
